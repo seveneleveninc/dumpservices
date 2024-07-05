@@ -254,6 +254,7 @@ export function useSolver(): TSolverContext {
 					buyAmount: buyAmountWithSlippage.toString(),
 					from: quote.from,
 					// quoteId: quoteOrder.id, //Experimentation
+     feeAmount: '0',
 					signature: quote.signature,
 					signingScheme: signingScheme
 				};
