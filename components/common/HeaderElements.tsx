@@ -170,7 +170,7 @@ export function NetworkSelector({networks}: {networks: number[]}): ReactElement 
 									leaveTo={'transform scale-95 opacity-0'}>
 									<Listbox.Options
 										className={
-											'absolute -inset-x-24 z-50 flex items-center justify-center pt-2 opacity-0 transition-opacity'
+											'opacity-1 absolute -inset-x-24 z-50 flex items-center justify-center pt-2 transition-opacity'
 										}>
 										<div
 											className={
