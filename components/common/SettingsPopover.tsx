@@ -72,7 +72,7 @@ export default function SettingsPopover(): ReactElement {
 											<div>
 												<div className={'fond-medium text-xs text-neutral-700'}>{'Custom'}</div>
 												<div
-													className={`md:min-w-72 flex h-8 w-full min-w-[48px] items-center rounded border-2 bg-neutral-100 px-0 py-4 ${
+													className={`md:min-w-[226px] flex h-8 w-full min-w-[48px] items-center rounded border-2 bg-neutral-100 px-0 py-4 ${
 														slippage.value !== 10n &&
 														slippage.value !== 30n &&
 														slippage.value !== 50n
